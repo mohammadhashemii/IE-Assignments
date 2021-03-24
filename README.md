@@ -2,4 +2,4 @@
 
 ### This repo contains the Internet Engineering(IE) course of Shahid Beheshti University.
 
-1. HW2: Simple HTTP cliented implemented in JAVA.
+1. [HW2](https://github.com/mohammadhashemii/IE-Assignments/tree/master/HW2/src): Simple HTTP client implemented in JAVA.
