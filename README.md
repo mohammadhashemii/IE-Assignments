@@ -6,4 +6,4 @@
 
 | Folder | Description |
 |--|--|
-| [*Project#2/*](https://github.com/mohammadhashemii/IE-Assignments/tree/master/HW2/src) | Simple HTTP client implemented in JAVA. |
+| [*Project#2/*](https://github.com/mohammadhashemii/IE-Assignments/tree/master/Project2/src) | Simple HTTP client implemented in JAVA. |
