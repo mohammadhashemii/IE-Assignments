@@ -1,0 +1,103 @@
+body {
+	/*background image location*/
+	background-image: url('images/background.png');
+	/*background image does not tile*/
+	background-repeat: no-repeat;
+	/*background image is fixed in the viewport*/
+	background-attachment: fixed;
+	/*background image is centered vertically and horizantally*/
+	background-position: center center;
+	/*makes the backgroudnd image responsive to the viewport size*/
+	background-size: cover;
+}
+p {
+	/*set the font family for the whole contents*/
+	font-family: Arial;
+	/*set the font size*/
+	font-size: 15px;
+	margin: 0px;
+}
+#heading {
+	/*make the heading texts bolder*/
+	font-weight: bold;
+	/*ever with bigger size*/
+	font-size: 25px; 
+}
+#error-text {
+	color: red;
+	visibility: hidden;
+}
+/*it contains the whole content area styles*/
+.container {
+	/*make the corners smoother*/
+	border-radius: 30px;
+	/*The next 4 lines make the container to be in the center of its parent*/
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 90%;
+	width: 40%;
+	background-color: white;
+	padding: 30px;
+	border: 1px solid black;
+	/*create a two colimn grid*/
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+
+}
+.grid_col {
+	padding: 20px;
+}
+.row {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.col-25 {
+	/*to place the two columns of this row side by side of eachother*/
+	float: left;
+	width: 25%;
+}
+.col-75 {
+	float: left;
+	width: 75%;
+}
+/*style for saved-answer part*/
+#history {
+	border: 1px dashed black;
+	padding: 10px;
+	width: 70%;
+	/*make it hidden as default*/
+	visibility: hidden;
+}
+/*style fot the submit button*/
+input[type=submit] {
+  /*make its background color as same as it parent*/	
+  background-color: transparent;
+  /*set the foreground color*/
+  color: black;
+  padding: 5px 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  /*make te curose shown as the pointer when hovering*/
+  cursor: pointer;
+  float: left;
+}
+input[type=text] {
+	width: 100%;
+	padding: 5px 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+	float: left;
+	margin-top: 8px;
+}
+/*label fot the text area*/
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 15px;
+}

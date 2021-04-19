@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Gender Predictor</title>
+	<script type="text/javascript" src="script.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class = "grid_col">
+			<div class="row">
+				<p id="heading"> Mr. or Ms.?</p>
+			</div>
+
+			<div class="row">
+				<div class="col-25">
+					<label for="name">Name:</label>
+				</div>
+				<div class="col-75">
+					<input type="text" id="name" name="name" placeholder="Type your name here.">
+				</div>	
+					
+			</div>		
+			<div class="row">
+				<input type="radio" id="male" name="gender" value="male">
+				<label for="male">Male</label><br>
+				<input type="radio" id="female" name="gender" value="female">
+				<label for="female">Female</label>
+			</div>
+			<div class="row">
+				<input onclick="submit()" type="submit" value="Submit">
+			</div>
+			<div class="row">
+				<p id="error-text">The name is unpredictable!</p>
+			</div>			
+			
+		</div>
+		<div class = "grid_col">
+			<div class="row">
+				<p id="heading">Prediction</p>
+			</div>
+			<div class="row">
+				<p id="gender">Gender</p>
+			</div>
+			<div class="row">
+				<p id="probability">Probability</p>
+			</div>
+			<div class="row">
+				<div id="history">
+					<div class="row">
+						<p id="heading">Saved Answer</p>	
+					</div>
+					<div class="row">
+						<p id="saved-value">Male</p>	
+					</div>
+					<div class="row">
+						<input onclick="clear_history()" type="submit" value="Clear">
+					</div>
+							
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
