@@ -1,6 +1,6 @@
 .key {
-  width: 100px;
-  height: 100px;
+  width: 25%;
+  height: 15vh;
   border: 1px solid white;
   border-radius: 0;
   font-size: 20px;
@@ -10,12 +10,17 @@
 }
 
 .key.wide {
-  width: 200px;
+  width: 50%;
 }
 
 .key.blue {
   background-color: #299bff;
   color: white;
+}
+.key.memory {
+  width: 20%;
+  height: 10vh;
+  background-color: #f0efef;
 }
 
 .key:hover {
@@ -25,10 +30,12 @@
 .key.blue:hover {
   background-color: #1b8bec;
 }
-
+.key.memory:hover {
+  background-color: #dad8d8;
+}
 .screen {
-  height: 100px;
-  width: 400px;
+  height: 15vh;
+  width: 100%;
   background-color: #3b3e41;
   color: white;
   padding: 8px;
