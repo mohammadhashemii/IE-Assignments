@@ -1,4 +1,4 @@
-# Basic Calculator with ReactJs
+# Basic Calculator with ReactJS
 This project was the third project of the Internet Engineering course at Shahid Beheshti University.
 
 
